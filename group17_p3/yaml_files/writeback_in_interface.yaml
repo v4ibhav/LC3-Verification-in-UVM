@@ -1,0 +1,129 @@
+uvmf:
+  interfaces:
+    writeback_in:
+      clock: clock
+      config_constraints: []
+      config_vars: []
+      gen_inbound_streaming_driver: 'False'
+      hdl_pkg_parameters: []
+      hdl_typedefs:
+      - name: npc_in_t
+        type: bit [15:0]
+      - name: W_Control_in_t
+        type: bit [1:0]
+      - name: aluout_t
+        type: bit [15:0]
+      - name: pcout_t
+        type: bit [15:0]
+      - name: memout_t
+        type: bit [15:0]
+      - name: enable_writeback_t
+        type: bit
+      - name: sr1_t
+        type: bit [2:0]
+      - name: sr2_t
+        type: bit [2:0]
+      - name: dr_t
+        type: bit [2:0]
+      hvl_pkg_parameters: []
+      hvl_typedefs: []
+      parameters: []
+      ports:
+      - name: npc_in
+        dir: output   
+        reset_value: '''bz'
+        width: '16'
+      - name: W_Control_in
+        dir: output
+        reset_value: '''bz'
+        width: '2'
+      - name: aluout
+        dir: output
+        reset_value: '''bz'
+        width: '16'
+      - name: pcout
+        dir: output
+        reset_value: '''bz'
+        width: '16'
+      - name: memout
+        dir: output
+        reset_value: '''bz'
+        width: '16'
+      - name: enable_writeback
+        dir: output
+        reset_value: '''bz'
+        width: '1'
+      - name: sr1
+        dir: output
+        reset_value: '''bz'
+        width: '3'
+      - dir: output
+        name: sr2
+        reset_value: '''bz'
+        width: '3'
+      - name: dr
+        dir: output
+        reset_value: '''bz'
+        width: '3'
+      reset: reset
+      reset_assertion_level: 'True'
+      response_info:
+        data: []
+        operation: 1'b1
+      transaction_constraints: []
+      transaction_vars:
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: npc_in
+        type: npc_in_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: W_Control_in
+        type: W_Control_in_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: aluout
+        type: aluout_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: pcout
+        type: pcout_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: memout
+        type: memout_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: enable_writeback
+        type: enable_writeback_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: sr1
+        type: sr1_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: sr2
+        type: sr2_t
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'False'
+        isrand: 'True'
+        name: dr
+        type: dr_t
+        unpacked_dimension: ''
+      use_dpi_link: 'False'

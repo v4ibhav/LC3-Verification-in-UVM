@@ -1,0 +1,1568 @@
+#QUESTA_RANKTEST_FILE
+#QUESTA_RANKTEST_VERSION:3
+{
+    {RANKTEST}
+    {
+        {BROWSERROW:3}
+        {vsim.rank}
+        116
+        62
+        4
+        116 0
+        100.000000
+        100.000000
+        {
+            {1 -1 100.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {9 9 100.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {2 2 100.000000 0.000000}
+            {2 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 -1 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {2 2 100.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 100.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+            {0 0 0.000000 0.000000}
+        }
+        0
+        {
+            {{TESTNAME} {-}}
+            {{USERNAME} {-}}
+            {{TIMEUNIT} {ns}}
+            {{SIMTIME} 17440.000000}
+            {{CPUTIME} 2.420000}
+            {{DATE} {-}}
+            {{VSIMARGS} {-}}
+            {{TESTCMD} {-}}
+            {{TESTSTATUS} 1}
+            {{ORIGFILENAME} {vsim.rank}}
+            {{SEED} {-}}
+            {{COMPULSORY} 0}
+            {{TESTCOMMENT} {-}}
+            {{RUNCWD} {-}}
+            {{BROWSER_FLAGS} 0}
+            {{CVGTOTALMEM} -1}
+            {{CVGPEAKMEM} -1}
+            {{CVGPEAKTIME} {-}}
+        }
+    }
+    { -rankfile vsim.rank /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_add_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_and_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_not_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_br_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_jmp_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/lc3_test_plan.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ld_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldi_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldr_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_lea_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_st_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_sti_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_str_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/test_top.ucdb}
+    1
+    0
+    {/*} {} {}
+    4
+    16
+    -1
+    -1.000000
+    0.000000
+    100.000000
+    {
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {1 100.000000 1}
+        {0 100.000000 1}
+        {0 100.000000 1}
+    }
+    {
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/test_top.ucdb}
+            116
+            62
+            4
+            116 0
+            99.580805
+            99.580805
+            {
+                {1 -1 98.742414 98.742414}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {9 9 100.000000 100.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 100.000000}
+                {2 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 -1 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 100.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 100.000000 100.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {test_top}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.580000}
+                {{DATE} {20231207024320}}
+                {{VSIMARGS} {-c -coverage -sv_seed 16 +UVM_TESTNAME=test_top +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit test_top.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {test_top.ucdb}}
+                {{SEED} {16}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 306144}
+                {{CVGPEAKMEM} 306144}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157448}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/test_top.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_test.ucdb}
+            116
+            62
+            4
+            116 0
+            99.853622
+            0.272817
+            {
+                {1 -1 99.560866 0.818452}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {9 9 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 0.000000}
+                {2 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 -1 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {ctrl_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.530000}
+                {{DATE} {20231207024237}}
+                {{VSIMARGS} {-c -coverage -sv_seed 7 +UVM_TESTNAME=ctrl_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit ctrl_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {ctrl_test.ucdb}}
+                {{SEED} {7}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305568}
+                {{CVGPEAKMEM} 305568}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157448}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_add_test.ucdb}
+            116
+            62
+            4
+            116 0
+            99.969363
+            0.115741
+            {
+                {1 -1 99.908088 0.347222}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {9 9 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 0.000000}
+                {2 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 -1 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {alu_add_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.630000}
+                {{DATE} {20231207023800}}
+                {{VSIMARGS} {-c -coverage -sv_seed 1 +UVM_TESTNAME=alu_add_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit alu_add_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {alu_add_test.ucdb}}
+                {{SEED} {1}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305488}
+                {{CVGPEAKMEM} 305488}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_add_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldr_test.ucdb}
+            116
+            62
+            4
+            116 0
+            100.000000
+            0.030637
+            {
+                {1 -1 100.000000 0.091912}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {9 9 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 0.000000}
+                {2 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 -1 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {2 2 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 100.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_ldr_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.680000}
+                {{DATE} {20231207024038}}
+                {{VSIMARGS} {-c -coverage -sv_seed 10 +UVM_TESTNAME=mem_ldr_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_ldr_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {mem_ldr_test.ucdb}}
+                {{SEED} {10}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305640}
+                {{CVGPEAKMEM} 305640}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldr_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_and_test.ucdb}
+            0
+            0
+            0
+            0 4
+            84.599025
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {alu_and_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.800000}
+                {{DATE} {20231207023814}}
+                {{VSIMARGS} {-c -coverage -sv_seed 2 +UVM_TESTNAME=alu_and_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit alu_and_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {alu_and_test.ucdb}}
+                {{SEED} {2}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305488}
+                {{CVGPEAKMEM} 305488}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_and_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_not_test.ucdb}
+            0
+            0
+            0
+            0 4
+            83.077858
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {alu_not_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.680000}
+                {{DATE} {20231207023837}}
+                {{VSIMARGS} {-c -coverage -sv_seed 3 +UVM_TESTNAME=alu_not_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit alu_not_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {alu_not_test.ucdb}}
+                {{SEED} {3}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305560}
+                {{CVGPEAKMEM} 305560}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_not_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_test.ucdb}
+            0
+            0
+            0
+            0 4
+            87.861808
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {alu_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.800000}
+                {{DATE} {20231207024305}}
+                {{VSIMARGS} {-c -coverage -sv_seed 4 +UVM_TESTNAME=alu_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit alu_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {alu_test.ucdb}}
+                {{SEED} {4}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305584}
+                {{CVGPEAKMEM} 305584}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157448}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_br_test.ucdb}
+            0
+            0
+            0
+            0 4
+            79.660750
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {ctrl_br_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.440000}
+                {{DATE} {20231207023901}}
+                {{VSIMARGS} {-c -coverage -sv_seed 5 +UVM_TESTNAME=ctrl_br_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit ctrl_br_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {ctrl_br_test.ucdb}}
+                {{SEED} {5}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305456}
+                {{CVGPEAKMEM} 305456}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_br_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_jmp_test.ucdb}
+            0
+            0
+            0
+            0 4
+            82.636942
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {ctrl_jmp_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.490000}
+                {{DATE} {20231207023933}}
+                {{VSIMARGS} {-c -coverage -sv_seed 6 +UVM_TESTNAME=ctrl_jmp_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit ctrl_jmp_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {ctrl_jmp_test.ucdb}}
+                {{SEED} {6}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305560}
+                {{CVGPEAKMEM} 305560}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157448}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_jmp_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ld_test.ucdb}
+            0
+            0
+            0
+            0 4
+            78.966308
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_ld_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.620000}
+                {{DATE} {20231207024004}}
+                {{VSIMARGS} {-c -coverage -sv_seed 8 +UVM_TESTNAME=mem_ld_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_ld_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {mem_ld_test.ucdb}}
+                {{SEED} {8}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305456}
+                {{CVGPEAKMEM} 305456}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157448}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ld_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldi_test.ucdb}
+            0
+            0
+            0
+            0 4
+            79.835825
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_ldi_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.560000}
+                {{DATE} {20231207024023}}
+                {{VSIMARGS} {-c -coverage -sv_seed 9 +UVM_TESTNAME=mem_ldi_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_ldi_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {mem_ldi_test.ucdb}}
+                {{SEED} {9}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305480}
+                {{CVGPEAKMEM} 305480}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldi_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_lea_test.ucdb}
+            0
+            0
+            0
+            0 4
+            79.835825
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_lea_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.820000}
+                {{DATE} {20231207024059}}
+                {{VSIMARGS} {-c -coverage -sv_seed 11 +UVM_TESTNAME=mem_lea_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_lea_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {mem_lea_test.ucdb}}
+                {{SEED} {11}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305400}
+                {{CVGPEAKMEM} 305400}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_lea_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_st_test.ucdb}
+            0
+            0
+            0
+            0 4
+            80.326017
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_st_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.670000}
+                {{DATE} {20231207024222}}
+                {{VSIMARGS} {-c -coverage -sv_seed 12 +UVM_TESTNAME=mem_st_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_st_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 2}
+                {{ORIGFILENAME} {mem_st_test.ucdb}}
+                {{SEED} {12}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305480}
+                {{CVGPEAKMEM} 305480}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm error message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157448}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_st_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_sti_test.ucdb}
+            0
+            0
+            0
+            0 4
+            80.326017
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_sti_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.550000}
+                {{DATE} {20231207024153}}
+                {{VSIMARGS} {-c -coverage -sv_seed 13 +UVM_TESTNAME=mem_sti_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_sti_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {mem_sti_test.ucdb}}
+                {{SEED} {13}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305544}
+                {{CVGPEAKMEM} 305544}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_sti_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_str_test.ucdb}
+            0
+            0
+            0
+            0 4
+            82.593175
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_str_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.540000}
+                {{DATE} {20231207024208}}
+                {{VSIMARGS} {-c -coverage -sv_seed 14 +UVM_TESTNAME=mem_str_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_str_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {mem_str_test.ucdb}}
+                {{SEED} {14}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305752}
+                {{CVGPEAKMEM} 305752}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157452}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_str_test.ucdb}}
+            }
+        }
+        {
+            {BROWSERROW:3}
+            {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_test.ucdb}
+            0
+            0
+            0
+            0 4
+            87.185850
+            0.000000
+            {
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+                {0 0 0.000000 0.000000}
+            }
+            10
+            {
+                {{TESTNAME} {mem_test}}
+                {{USERNAME} {rbthomas}}
+                {{TIMEUNIT} {ns}}
+                {{SIMTIME} 4360.000000}
+                {{CPUTIME} 0.580000}
+                {{DATE} {20231207024251}}
+                {{VSIMARGS} {-c -coverage -sv_seed 15 +UVM_TESTNAME=mem_test +UVM_VERBOSITY=UVM_MEDIUM -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do ' coverage save -onexit mem_test.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;' optimized_batch_top_tb }}
+                {{TESTCMD} {}}
+                {{TESTSTATUS} 1}
+                {{ORIGFILENAME} {mem_test.ucdb}}
+                {{SEED} {15}}
+                {{COMPULSORY} 0}
+                {{TESTCOMMENT} {}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{BROWSER_FLAGS} 0}
+                {{CVGTOTALMEM} 305864}
+                {{CVGPEAKMEM} 305864}
+                {{CVGPEAKTIME} {4360 ns}}
+                {{TSTAT_REASON} {uvm warning message}}
+                {{TSTAT_SIMTIME} {4360.000000}}
+                {{RUNCWD} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim}}
+                {{HOSTNAME} {grendel30.ece.ncsu.edu}}
+                {{HOSTOS} {linux}}
+                {{WLFNAME} {}}
+                {{LOGNAME} {transcript}}
+                {{MEMUSAGE} {157448}}
+                {{MTIVERSION} {2023.2_2}}
+                {{#RECENTFILEPATH#} {/mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_test.ucdb}}
+            }
+        }
+    }
+}

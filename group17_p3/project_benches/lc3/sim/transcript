@@ -1,0 +1,40 @@
+# //  Questa Sim
+# //  Version 2023.2_2 linux Jun  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# coverage read -dataset lc3_test_plan_merged ./lc3_test_plan_merged.ucdb
+# ./lc3_test_plan_merged.ucdb opened as coverage dataset "lc3_test_plan_merged"
+add testbrowser /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_add_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_and_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_not_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_br_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_jmp_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/lc3_test_plan.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ld_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldi_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldr_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_lea_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_st_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_sti_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_str_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/test_top.ucdb
+vcover ranktest -stats=none -rankfile vsim.rank /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_add_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_and_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_not_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/alu_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_br_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_jmp_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/ctrl_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/lc3_test_plan.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ld_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldi_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_ldr_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_lea_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_st_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_sti_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_str_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/mem_test.ucdb /mnt/ncsudrive/r/rbthomas/_afs/bin/748/group17_p3/project_benches/lc3/sim/test_top.ucdb
+# Ranktest in Process......
+# 
+# 
+# Ranking based on minimum number of tests.
+# Ranking design tree path: "/*".
+# Ranking 16 test(s).
+# 
+# Rank   TotalCov  Testname            
+# -----  --------  --------------------
+#     1     99.58  test_top            
+#     2     99.85  ctrl_test           
+#     3     99.96  alu_add_test        
+#     4    100.00  mem_ldr_test        
+# Reached set goal(s).
+# 
+# Ranking summary:
+# 	Total Contributing Tests      = 4
+# 	Total Non-Contributing Tests  = 12
+# 	Total Coverage                = 100.00%
+# 	Testplan Coverage             = 100.00%
+# 	Total CPU Time                = 2.42 s
+# 	Total SIM Time                = 17440.00 ns

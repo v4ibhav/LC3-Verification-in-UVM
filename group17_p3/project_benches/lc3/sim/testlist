@@ -1,0 +1,21 @@
+# Test list
+# Format: test name , seed
+alu_add_test , 1
+alu_and_test , 2
+alu_not_test , 3
+alu_test , 4
+ctrl_br_test , 5
+ctrl_jmp_test , 6
+ctrl_test , 7
+mem_ld_test , 8
+mem_ldi_test , 9
+mem_ldr_test , 10
+mem_lea_test , 11
+mem_st_test , 12
+mem_sti_test , 13
+mem_str_test , 14
+mem_test , 15
+test_top , 16
+
+
+

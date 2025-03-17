@@ -1,0 +1,117 @@
+uvmf:
+  interfaces:
+    execute_in:
+      clock: clock
+      reset: reset
+      reset_assertion_level: 'True'
+      hdl_typedefs:
+      - name: opcode_d
+        type: enum bit [3:0] {ADD=4'b0001, AND=4'b0101, NOT=4'b1001, LD=4'b0010, LDR=4'b0110, LDI=4'b1010, LEA=4'b1110, ST=4'b0011, STR=4'b0111, STI=4'b1011, BR=4'b0000, JMP=4'b1100}
+      - name: source_value_t
+        type: bit [15:0]
+      - name: bypass_val_t
+        type: bit [15:0]
+      hvl_typedefs: []
+
+      ports:
+      - name: enable_execute
+        dir: output
+        width: '1'
+      - name: IR
+        dir: output
+        width: '16'
+      - name: npc_in
+        dir: output
+        width: '16'
+      - name: E_control
+        dir: output
+        width: '6'
+      - name: Mem_Control_in
+        dir: output
+        width: '1'
+      - name: W_Control_in
+        dir: output
+        width: '2'
+      - name: bypass_alu_1
+        dir: output
+        width: '1'
+      - name: bypass_alu_2
+        dir: output
+        width: '1'
+      - name: bypass_mem_1
+        dir: output
+        width: '1'
+      - name: bypass_mem_2
+        dir: output
+        width: '1'
+      - name: VSR1
+        dir: output
+        width: '16'
+      - name: VSR2
+        dir: output
+        width: '16'
+      - name: "Mem_bypass_val"   
+        width: "16"        
+        dir: "output"
+
+      transaction_vars:
+      - name: opcode  
+        type: opcode_d
+        isrand: 'False'
+        iscompare: 'False'
+      - name: enable_execute
+        type: bit
+        iscompare: 'True'
+        isrand: 'True'
+      - name: IR
+        type: bit [15:0]
+        iscompare: 'True'
+        isrand: 'True'
+      - name: npc_in
+        type: bit [15:0]
+        iscompare: 'True'
+        isrand: 'True'
+      - name: E_control
+        type: bit [5:0]
+        iscompare: 'True'
+        isrand: 'True'
+      - name: Mem_Control_in
+        type: bit
+        iscompare: 'True'
+        isrand: 'True'
+      - name: W_Control_in
+        type: bit [1:0]
+        iscompare: 'True'
+        isrand: 'True'
+      - name: bypass_alu_1
+        type: bypass_val_t
+        iscompare: 'True'
+        isrand: 'True'
+      - name: bypass_alu_2
+        type: bypass_val_t 
+        iscompare: 'True'
+        isrand: 'True'
+      - name: bypass_mem_1
+        type: bypass_val_t
+        iscompare: 'True'
+        isrand: 'True'
+      - name: bypass_mem_2
+        type: bypass_val_t
+        iscompare: 'True'
+        isrand: 'True'
+      - name: VSR1
+        type: source_value_t
+        iscompare: 'True'
+        isrand: 'True'
+      - name: VSR2
+        type: source_value_t
+        iscompare: 'True'
+        isrand: 'True'
+      - name: Mem_Bypass_Val
+        type: bypass_val_t
+        iscompare: 'True'
+        isrand: 'True'
+      - name: "src_imm"  
+        type: bit
+        isrand: "True"
+        iscompare: "True" 

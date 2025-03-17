@@ -1,0 +1,38 @@
+uvmf:
+  util_components:
+    "exe_predictor" :
+      type: "predictor"
+      analysis_exports :
+        - name: "analysis_export"
+          type: "execute_in_transaction"
+      analysis_ports : 
+        - name: "analysis_port"
+          type: "execute_out_transaction"
+  environments:
+    "execute" :
+      imports:
+        - name: "lc3_prediction_pkg"
+      agents :
+        - name: "exe_in_agent" 
+          type: "execute_in"
+          initiator_responder: "INITIATOR"
+        - name: "exe_out_agent" 
+          type: "execute_out"
+          initiator_responder: "RESPONDER"
+      analysis_components :
+        - name: "exe_pred"
+          type: "exe_predictor"
+      scoreboards : 
+        - name: "exe_scoreboard"
+          sb_type: "uvmf_in_order_race_scoreboard"
+          trans_type: "execute_out_transaction"
+      tlm_connections :
+        - driver:   "exe_in_agent.monitored_ap"
+          receiver: "exe_pred.analysis_export"
+        - driver:   "exe_out_agent.monitored_ap"
+          receiver: "exe_scoreboard.actual_analysis_export"
+        - driver:   "exe_pred.analysis_port"
+          receiver: "exe_scoreboard.expected_analysis_export"
+      imp_decls:
+        - name: _expected_execute
+        - name: _actual_execute

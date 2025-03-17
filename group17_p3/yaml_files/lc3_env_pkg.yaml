@@ -1,0 +1,33 @@
+uvmf:
+  environments:
+    "lc3" :
+      imports: 
+        - name: "fetch_env_pkg"
+        - name: "decode_env_pkg"
+        - name: "execute_env_pkg"
+        - name: "memaccess_env_pkg"
+        - name: "writeback_env_pkg"
+        - name: "control_env_pkg"
+        - name: "dmem_pkg"
+        - name: "imem_pkg"
+        - name: "lc3_prediction_pkg"
+      subenvs :
+        - name: "fetch_env"
+          type: "fetch"
+        - name: "decode_env"
+          type: "decode"
+        - name: "execute_env"
+          type: "execute"
+        - name: "writeback_env"
+          type: "writeback"
+        - name: "memaccess_env"
+          type: "memaccess"
+        - name: "control_env"
+          type: "control"
+      agents :
+        - name: "imem_resp" 
+          type: "imem"
+          initiator_responder: "RESPONDER"
+        - name: "dmem_resp" 
+          type: "dmem"
+          initiator_responder: "RESPONDER"
